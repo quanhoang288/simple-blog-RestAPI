@@ -14,10 +14,10 @@ Install Postman Desktop Client: https://www.postman.com/downloads/
 Install Flask and mysql-connector-python using pip:  ``` pip install flask mysql-connector-python ```  
 
 ## Usage 
-Open MySQL Workbench and create database and tables using ```tables.sql``` script  
-Change database connection configuration if necessary to match your MySQL server's configuration in ```api/database/config.ini```  
-Navigate to ```api``` directory and open up the command line to start the application using ```python app.py```   
-Open Postman Client and start testing the APIs with the root url ```http://127.0.0.1:5000/```
+- Open MySQL Workbench and create database and tables using ```tables.sql``` script  
+- Change database connection configuration if necessary to match your MySQL server's configuration in ```api/database/config.ini```  
+- Navigate to ```api``` directory and open up the command line to start the application using ```python app.py```   
+- Open Postman Client and start testing the APIs with the root url ```http://127.0.0.1:5000/```
 
 ## Endpoints 
 You can test the API with the following endpoints:  
