@@ -21,7 +21,7 @@ Install Flask and mysql-connector-python using pip:  ``` pip install flask mysql
 
 ## Endpoints 
 You can test the API with the following endpoints:  
-**Note: For requests with body containing data, data must be in JSON format**
+**Note: For requests with body containing data, data must be in JSON format. For requests modifying and creating data, fields in request's body must match fields in corresponding table in database**
 ### User endpoints
 Method  | Endpoint  | Additional parameters | Description
 -----   | --------  |------------------     | -----------
